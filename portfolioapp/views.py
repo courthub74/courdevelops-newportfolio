@@ -34,7 +34,7 @@ class IndexView(generic.TemplateView):
 		
 #ContatctView		
 class ContatctView(generic.FormView):
-    template_name = "portfolio/contact.html"
+    template_name = "portfolioapp/contact.html"
     form_class = ContactForm
     success_url = "/"
 
