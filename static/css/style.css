@@ -302,9 +302,13 @@ a, .btn {
 	padding-top: 10px;
 }
 .keySkillCard + .keySkillCard {
+  display: flex;
+  justify-content: center;
   padding-top: 25px;
 }
 .keySkillCol {
+  display: flex;
+  justify-content: center;
   width: 300px;
 }
 .pLbl {
